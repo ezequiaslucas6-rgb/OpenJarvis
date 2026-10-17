@@ -1,0 +1,18 @@
+# Voz do Jarvis em português (Brasil): Kokoro "pm_alex" (masculina, local, grátis).
+#
+# Como usar: copie este bloco para ~/.openjarvis/config.toml
+# (ou junte com o que já estiver lá). Requer:
+#   uv sync --extra voice
+#   espeak-ng instalado no sistema (Linux: sudo apt install espeak-ng,
+#   macOS: brew install espeak-ng, Windows: instalador em github.com/espeak-ng)
+# Na primeira fala, o Kokoro baixa o modelo (~330 MB) do Hugging Face.
+
+[speech]
+tts_backend = "kokoro"
+voice_id = "pm_alex"
+voice_speed = 1.0     # 1.2 = 20% mais rápido
+
+[digest]
+tts_backend = "kokoro"
+voice_id = "pm_alex"
+voice_speed = 1.0
